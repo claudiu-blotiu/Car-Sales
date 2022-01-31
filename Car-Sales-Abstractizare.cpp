@@ -1,4 +1,4 @@
-#include"Admin.h"
+#include"ControlCarInpl.h"
 
 int main()
 {
@@ -10,14 +10,7 @@ int main()
 
     cout << d->description() << endl;*/
 
-    User* a = new Customer(1, "Alex", "parola", "Card");
-
-    User* b = new Admin(1, "Bogdan", "meditatii", true);
-
-    cout << a->description() << endl;
-
-    cout << b->description() << endl;
-
+    
 
 
 }

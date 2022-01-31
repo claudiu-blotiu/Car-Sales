@@ -143,7 +143,12 @@
     <ClCompile Include="Break.cpp" />
     <ClCompile Include="Car-Sales-Abstractizare.cpp" />
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="ControlCar.cpp" />
+    <ClCompile Include="ControlCarInpl.cpp" />
+    <ClCompile Include="ControlUser.cpp" />
+    <ClCompile Include="ControlUserInpl.cpp" />
     <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="Order.cpp" />
     <ClCompile Include="Sedan.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
@@ -151,9 +156,18 @@
     <ClInclude Include="Admin.h" />
     <ClInclude Include="Break.h" />
     <ClInclude Include="Car.h" />
+    <ClInclude Include="ControlCar.h" />
+    <ClInclude Include="ControlCarInpl.h" />
+    <ClInclude Include="ControlUser.h" />
+    <ClInclude Include="ControlUserInpl.h" />
     <ClInclude Include="Customer.h" />
+    <ClInclude Include="Order.h" />
     <ClInclude Include="Sedan.h" />
     <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Cars.txt" />
+    <Text Include="Users.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
