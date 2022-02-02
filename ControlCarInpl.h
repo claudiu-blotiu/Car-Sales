@@ -31,6 +31,10 @@ public:
 
 	void load();
 
+	void showCar(int carId);
+
+	void getCar(string brand, string model, int& nr);
+
 	Car** all();
 
 	int count();

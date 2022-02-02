@@ -1,4 +1,4 @@
-#include"ControlCarInpl.h"
+#include"View.h"
 
 int main()
 {
@@ -10,7 +10,13 @@ int main()
 
     cout << d->description() << endl;*/
 
-    
+    ControlUser* x = new ControlUserInpl();
+
+    User* pers = new Customer(1, "BlotiuC", "parola", "cash");
+
+    View* v = new View(x, pers);
+
+    v->play();
 
 
 }

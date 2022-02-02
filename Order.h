@@ -28,6 +28,8 @@ public:
 
 	virtual string description();
 
+	virtual string toSave();
+
 
 
 

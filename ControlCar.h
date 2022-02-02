@@ -22,6 +22,10 @@ public:
 
 	virtual void load() = 0;
 
+	virtual void showCar(int carId) = 0;
+
+	virtual void getCar(string brand, string model, int& nr) = 0;
+
 	virtual Car** all() = 0;
 
 	virtual int count() = 0;

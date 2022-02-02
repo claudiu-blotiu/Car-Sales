@@ -44,3 +44,14 @@ string Order::description()
 	
 	return text;
 }
+
+string Order::toSave()
+{
+	string text = "";
+
+	text += to_string(this->id) + " ";
+	text += to_string(this->userId) + " ";
+	text += to_string(this->carId);
+
+	return text;
+}

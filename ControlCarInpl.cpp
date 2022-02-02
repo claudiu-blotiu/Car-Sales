@@ -130,6 +130,32 @@ void ControlCarInpl::load()
 	}
 }
 
+void ControlCarInpl::showCar(int carId)
+{
+	for (int i = 0; i < size; i++)
+	{
+		if (car[i]->getCarId() == carId)
+		{
+			cout << car[i]->description() << endl;
+		}
+	}
+}
+
+void ControlCarInpl::getCar(string brand, string model, int& nr)
+{
+	nr = 0;
+
+	for (int i = 0; i < size; i++)
+	{
+		if (car[i]->getBrand() == brand && car[i]->getModel()==model)
+		{
+			cout << car[i]->description() << endl;
+
+			nr++;
+		}
+	}
+}
+
 Car** ControlCarInpl::all()
 {
 	for (int i = 0; i < size; i++)
